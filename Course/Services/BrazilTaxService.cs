@@ -1,5 +1,5 @@
 ﻿namespace Course.Services {
-    class BrazilTaxService {
+    class BrazilTaxService : ITaxService {
 
         public double Tax(double amount) {
             if (amount <= 100.00) {
